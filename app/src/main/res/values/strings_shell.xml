@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom bar tabs -->
+    <string name="shell_tab_dashboard_label">Home</string>
+    <string name="shell_tab_dashboard_title">Dashboard</string>
+    <string name="shell_tab_agents_label">Agents</string>
+    <string name="shell_tab_agents_title">AI Agents</string>
+    <string name="shell_tab_calendar_label">Calendar</string>
+    <string name="shell_tab_calendar_title">Content Calendar</string>
+    <string name="shell_tab_video_label">Video</string>
+    <string name="shell_tab_video_title">Video Studio</string>
+    <string name="shell_tab_analytics_label">Analytics</string>
+    <string name="shell_tab_analytics_title">Analytics</string>
+    <string name="shell_tab_settings_label">Settings</string>
+    <string name="shell_tab_settings_title">Settings</string>
+
+    <!-- Drawer sections -->
+    <string name="shell_section_brand">Brand Profile</string>
+    <string name="shell_section_media">Media Library</string>
+    <string name="shell_section_instagram">Instagram Manager</string>
+    <string name="shell_section_expenses">AI Expenses</string>
+    <string name="shell_section_api">API Manager</string>
+    <string name="shell_section_migration">Data &amp; Migration</string>
+    <string name="shell_section_security">Security Center</string>
+
+    <!-- Screen titles -->
+    <string name="shell_route_interview">Business Interview</string>
+    <string name="shell_route_monthly">Monthly Check-in</string>
+    <string name="shell_route_agent">Agent</string>
+    <string name="shell_route_task">Task</string>
+    <string name="shell_route_content">Post</string>
+    <string name="shell_route_provider">AI Provider</string>
+    <string name="shell_route_video">Video Project</string>
+
+    <!-- Top bar -->
+    <string name="shell_open_menu">Open menu</string>
+    <string name="shell_back">Back</string>
+
+    <!-- Dashboard -->
+    <string name="shell_setup_interview_title">Tell us about your business</string>
+    <string name="shell_setup_interview_text">Agents need this before they can write for you.</string>
+    <string name="shell_setup_provider_title">Connect an AI provider</string>
+    <string name="shell_setup_provider_text">Add an API key so the agents can work.</string>
+    <string name="shell_setup_monthly_title">New month: what changed?</string>
+    <string name="shell_setup_monthly_text">A quick check so your agents stay up to date.</string>
+    <string name="shell_agent_working">%1$s working</string>
+    <string name="shell_agent_needs_review">Needs your review</string>
+    <string name="shell_agent_waiting">%1$d result(s) are waiting for you</string>
+    <string name="shell_agent_idle">%1$s idle</string>
+    <string name="shell_agent_no_task">No task is running</string>
+    <string name="shell_severity_info">Info</string>
+    <string name="shell_severity_warning">Warning</string>
+    <string name="shell_severity_error">Error</string>
+    <string name="shell_dismiss">Dismiss</string>
+    <string name="shell_stat_videos">Videos created</string>
+    <string name="shell_stat_images">Images created</string>
+    <string name="shell_stat_published">Published</string>
+    <string name="shell_stat_scheduled">Scheduled</string>
+    <string name="shell_monthly_content">Monthly content</string>
+    <string name="shell_monthly_published">%1$d / %2$d published</string>
+    <string name="shell_expenses_month">AI expenses this month</string>
+    <string name="shell_of_budget">of %1$s budget</string>
+    <string name="shell_unpriced_requests">%1$d request(s) this month have no price and are not counted. Add prices in API Manager.</string>
+    <string name="shell_upcoming_posts">Upcoming posts</string>
+    <string name="shell_see_all">See all</string>
+    <string name="shell_nothing_scheduled">Nothing is scheduled yet.</string>
+    <string name="shell_quick_actions">Quick actions</string>
+    <string name="shell_action_create_content">Create content</string>
+    <string name="shell_action_generate_video">Generate video</string>
+    <string name="shell_action_open_calendar">Open calendar</string>
+    <string name="shell_action_ai_agents">AI agents</string>
+    <string name="shell_action_view_expenses">View expenses</string>
+    <string name="shell_action_publish_instagram">Publish to Instagram</string>
+    <string name="shell_recent_activity">Recent activity</string>
+    <string name="shell_reach_7_days">Reach, last 7 days</string>
+
+    <!-- Brand -->
+    <string name="shell_saved">Saved</string>
+    <string name="shell_logo_added">Logo added</string>
+    <string name="shell_files_added">%1$d file(s) added to your Media Library</string>
+    <string name="shell_log_interview_finished">Business interview finished</string>
+    <string name="shell_log_monthly_done">Monthly check-in done</string>
+    <string name="shell_log_details_updated">Business details updated</string>
+    <string name="shell_nothing_changed">Nothing changed</string>
+    <string name="shell_logo">Logo</string>
+    <string name="shell_add_logo">Add logo</string>
+    <string name="shell_change_logo">Change logo</string>
+    <string name="shell_save_brand_profile">Save brand profile</string>
+    <string name="shell_step_of">Step %1$d of %2$d</string>
+    <string name="shell_required">Required</string>
+    <string name="shell_optional">Optional</string>
+    <string name="shell_existing_material">Do you have existing material?</string>
+    <string name="shell_existing_material_hint">Add product photos, business photos, brand documents and earlier marketing. They stay on this phone in your Media Library.</string>
+    <string name="shell_choose_files">Choose files</string>
+    <string name="shell_next">Next</string>
+    <string name="shell_finish">Finish</string>
+    <string name="shell_still_empty">Still empty: %1$s</string>
+    <string name="shell_monthly_question">Has anything changed this month? Edit only what is different.</string>
+    <string name="shell_save_changes">Save changes</string>
+</resources>

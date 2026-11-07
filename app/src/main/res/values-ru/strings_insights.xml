@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Expenses -->
+    <string name="insights_period_day">Сегодня</string>
+    <string name="insights_period_week">7 дней</string>
+    <string name="insights_period_month">Месяц</string>
+    <string name="insights_period_year">Год</string>
+    <string name="insights_budget_saved">Бюджет сохранён</string>
+    <string name="insights_spent">Потрачено</string>
+    <string name="insights_measured_estimated">%1$s измерено, %2$s (ОЦЕНКА)</string>
+    <string name="insights_unpriced_requests">Не учтено запросов: %1$d, так как у их моделей не указана цена. Добавьте цены в разделе «Управление API».</string>
+    <string name="insights_measured_explainer">Измерено — это данные об использовании от провайдера, умноженные на введённую вами цену. Итоговую сумму сверяйте со счётом провайдера.</string>
+    <string name="insights_monthly_budget">Месячный бюджет</string>
+    <string name="insights_edit">Изменить</string>
+    <string name="insights_no_budget">Бюджет не задан. Нажмите, чтобы добавить.</string>
+    <string name="insights_budget_progress">%1$s из %2$s. Предупреждение при %3$d%%.</string>
+    <string name="insights_requests_stop_at">Запросы остановятся при расходе %1$s.</string>
+    <string name="insights_no_ai_requests">За этот период запросов к ИИ нет</string>
+    <string name="insights_every_request_listed">Здесь будет показан каждый запрос с провайдером, моделью и агентом.</string>
+    <string name="insights_not_available">н/д</string>
+    <string name="insights_cost_per_image">Стоимость изображения</string>
+    <string name="insights_cost_per_video">Стоимость видео</string>
+    <string name="insights_requests">Запросы</string>
+    <string name="insights_spending_over_time">Расходы по времени</string>
+    <string name="insights_by_provider">По провайдерам</string>
+    <string name="insights_by_model">По моделям</string>
+    <string name="insights_by_agent">По агентам</string>
+    <string name="insights_usage">Использование</string>
+    <string name="insights_input_tokens">Входящие токены</string>
+    <string name="insights_output_tokens">Исходящие токены</string>
+    <string name="insights_images">Изображения</string>
+    <string name="insights_videos">Видео</string>
+    <string name="insights_videos_value">%1$d (%2$d сек)</string>
+    <string name="insights_failed_requests">Неудачные запросы</string>
+    <string name="insights_recent_requests">Последние запросы</string>
+    <string name="insights_warn_at_percent">Предупреждать при (%)</string>
+    <string name="insights_stop_paid_requests">Остановить все платные запросы при расходе (необязательно)</string>
+    <string name="insights_save">Сохранить</string>
+    <string name="insights_cancel">Отмена</string>
+    <string name="insights_failed_status">Ошибка %1$s</string>
+    <string name="insights_estimated_status">ОЦЕНКА %1$s</string>
+    <string name="insights_no_price">Нет цены</string>
+    <string name="insights_mixed_currencies">В этих итогах суммируются разные валюты без пересчёта.</string>
+    <string name="insights_request_type_text">Текст</string>
+    <string name="insights_request_type_vision">Анализ изображения</string>
+    <string name="insights_request_type_image">Изображение</string>
+    <string name="insights_request_type_video">Видео</string>
+    <string name="insights_request_type_speech">Речь</string>
+    <string name="insights_request_type_connection_test">Проверка соединения</string>
+    <string name="insights_tokens_in_out">%1$s вх. / %2$s исх.</string>
+    <string name="insights_row_images">Изображений: %1$d</string>
+    <string name="insights_row_video_seconds">Видео: %1$d с</string>
+    <string name="insights_row_characters">Символов: %1$s</string>
+
+    <!-- Analytics -->
+    <string name="insights_fetching_figures">Получаем показатели из Instagram</string>
+    <string name="insights_agent_on_it">Аналитический агент уже работает. Результат смотрите в разделе ИИ-агенты.</string>
+    <string name="insights_get_latest_figures">Получить последние показатели из Instagram</string>
+    <string name="insights_no_figures_yet">Показателей пока нет</string>
+    <string name="insights_figures_appear_here">Показатели появятся здесь, когда у постов, опубликованных через это приложение, появится статистика в Instagram.</string>
+    <string name="insights_metric_by_post">%1$s по постам</string>
+    <string name="insights_totals">Итоги</string>
+    <string name="insights_ask_analytics_agent">Спросить аналитического агента</string>
+
+    <!-- Instagram metric names -->
+    <string name="insights_metric_reach">Охват</string>
+    <string name="insights_metric_likes">Лайки</string>
+    <string name="insights_metric_comments">Комментарии</string>
+    <string name="insights_metric_saved">Сохранения</string>
+    <string name="insights_metric_shares">Отправки</string>
+    <string name="insights_metric_views">Просмотры</string>
+</resources>

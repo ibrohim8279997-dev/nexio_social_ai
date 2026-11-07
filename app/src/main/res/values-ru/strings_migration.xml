@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen: intro and progress -->
+    <string name="migration_intro">Переносит профиль бренда, агентов, контент, медиафайлы, аналитику и расходы. API-ключи и вход в Instagram не переносятся: введите их заново на новом телефоне. На этом телефоне ваши данные всегда сохраняются.</string>
+    <string name="migration_progress_of">%1$s из %2$s, осталось %3$s</string>
+    <string name="migration_progress_speed">, %1$s/с</string>
+
+    <!-- Idle -->
+    <string name="migration_move_title">Перенос на другой телефон</string>
+    <string name="migration_transfer_auth_title">Передать ваши данные</string>
+    <string name="migration_transfer_button">Передать на другой телефон</string>
+    <string name="migration_receive_button">Получить с другого телефона</string>
+    <string name="migration_move_hint">Держите оба телефона рядом. Перенос идёт по Bluetooth и Wi-Fi, без сервера.</string>
+    <string name="migration_backup_title">Зашифрованная резервная копия</string>
+    <string name="migration_password_label">Пароль резервной копии</string>
+    <string name="migration_password_hint">Не короче 10 символов. Если вы потеряете пароль, его нельзя будет восстановить.</string>
+    <string name="migration_create_backup">Создать зашифрованную копию</string>
+    <string name="migration_restore_button">Восстановить из копии</string>
+    <string name="migration_backups_here">Копии, созданные на этом телефоне</string>
+
+    <!-- Transfer flow -->
+    <string name="migration_scan_title">Отсканируйте этот код на новом телефоне</string>
+    <string name="migration_code_summary">Файлов: %1$d, объём: %2$s. Код действует один раз и истекает через 10 минут.</string>
+    <string name="migration_code_description">Код переноса</string>
+    <string name="migration_cancel">Отмена</string>
+    <string name="migration_searching">Ищем другой телефон…</string>
+    <string name="migration_confirm_title">Этот код виден на обоих телефонах?</string>
+    <string name="migration_no_cancel">Нет, отменить</string>
+    <string name="migration_yes_match">Да, совпадает</string>
+    <string name="migration_receive_question">Получить %1$s?</string>
+    <string name="migration_offer_note">Пока данные не проверены и вы не подтвердили замену, на этом телефоне ничего не изменится.</string>
+    <string name="migration_start_transfer">Начать перенос</string>
+    <string name="migration_sent">Отправлено</string>
+    <string name="migration_sent_note">Завершите перенос на новом телефоне. С этого телефона ничего не удалено.</string>
+    <string name="migration_done">Готово</string>
+    <string name="migration_failed_title">Перенос не завершён</string>
+    <string name="migration_failed_note">Ваши текущие данные не изменились.</string>
+    <string name="migration_back">Назад</string>
+    <string name="migration_try_again">Повторить</string>
+    <string name="migration_scanner_failed">Не удалось запустить сканер: %1$s</string>
+
+    <!-- Review -->
+    <string name="migration_verified">Проверено</string>
+    <string name="migration_verified_files">Файлов, прошедших проверку SHA-256: %1$d. База данных прошла проверку целостности.</string>
+    <string name="migration_verified_counts">Постов: %1$d, медиафайлов: %2$d, ИИ-провайдеров: %3$d.</string>
+    <string name="migration_verified_size">Размер: %1$s. Создано: %2$s.</string>
+    <string name="migration_missing_media">Медиафайлов, которых не хватало уже при создании копии: %1$d.</string>
+    <string name="migration_review_note">Запланированные посты вернутся в статус «Одобрено», чтобы они не вышли сразу с двух телефонов. После переноса заново введите API-ключи и снова подключите Instagram.</string>
+    <string name="migration_replace_data">Заменить данные на этом телефоне</string>
+    <string name="migration_cancel_keep">Отмена, оставить мои данные</string>
+    <string name="migration_replace_dialog_title">Заменить все данные на этом телефоне?</string>
+    <string name="migration_replace_dialog_text">Всё, что сейчас есть в Nexio Social AI на этом телефоне, будет заменено проверенной копией. Приложение перезапустится.</string>
+    <string name="migration_replace">Заменить</string>
+
+    <!-- ViewModel -->
+    <string name="migration_backup_saved">Копия сохранена</string>
+    <string name="migration_creating_backup">Создаём зашифрованную копию</string>
+    <string name="migration_encrypting">Шифрование</string>
+    <string name="migration_error_write_backup">Не удалось записать файл резервной копии.</string>
+    <string name="migration_activity_backup_created">Создана зашифрованная копия</string>
+    <string name="migration_activity_files">Файлов: %1$d</string>
+    <string name="migration_checking_backup">Проверяем копию</string>
+    <string name="migration_verifying">Проверка</string>
+    <string name="migration_error_open_backup">Не удалось открыть файл резервной копии.</string>
+    <string name="migration_error_read_backup">Не удалось прочитать резервную копию.</string>
+    <string name="migration_preparing_data">Готовим ваши данные</string>
+    <string name="migration_preparing">Подготовка</string>
+    <string name="migration_error_code_expired">Срок действия кода переноса истёк. Начните заново, когда оба телефона будут готовы.</string>
+    <string name="migration_error_prepare">Не удалось подготовить перенос.</string>
+    <string name="migration_error_code_unusable">Этот код переноса нельзя использовать.</string>
+    <string name="migration_error_no_space">На этом телефоне не хватает свободной памяти. Нужно: %1$s.</string>
+    <string name="migration_transferring">Передача</string>
+    <string name="migration_verifying_received">Проверяем полученные данные</string>
+    <string name="migration_error_verify_received">Не удалось проверить полученные данные.</string>
+    <string name="migration_connecting">Подключение</string>
+    <string name="migration_receiving">Получение</string>
+    <string name="migration_error_verify_backup">Резервная копия записана, но её не удалось прочитать обратно для проверки. Не полагайтесь на неё: создайте копию заново.</string>
+    <string name="migration_error_replace">Не удалось заменить данные на этом телефоне. Ваши прежние данные сохранены. Приложение перезапустится.</string>
+
+    <!-- Resuming an interrupted transfer -->
+    <string name="migration_progress_chunks">Готово частей: %1$d из %2$d</string>
+    <string name="migration_code_summary_resumed">Продолжаем перенос, объём: %1$s. Код действует один раз и истекает через 10 минут.</string>
+    <string name="migration_offer_resume">Частей уже на этом телефоне после прошлой попытки: %1$d из %2$d. Будет отправлено только остальное.</string>
+    <string name="migration_retry">Повторить</string>
+    <string name="migration_continue">Продолжить</string>
+    <string name="migration_cancel_delete">Отменить и удалить сохранённые части</string>
+    <string name="migration_resume_note">Готовые части сохранены, ваши данные не изменились. Повтор начинает новое сопряжение: новый код, и на обоих телефонах нужно снова подтвердить цифры.</string>
+    <string name="migration_unfinished_title">Незавершённый перенос</string>
+    <string name="migration_unfinished_send">Можно продолжить отправку, объём: %1$s. С этого телефона ничего не удалено.</string>
+    <string name="migration_unfinished_receive">Частей сохранено на этом телефоне: %1$d из %2$d (всего %3$s). Чтобы продолжить, отсканируйте новый код на отправляющем телефоне.</string>
+    <string name="migration_error_nothing_to_resume">Нет незавершённого переноса, который можно продолжить.</string>
+</resources>

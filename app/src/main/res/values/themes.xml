@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nexio_background">#071426</color>
+
+    <style name="Theme.Nexio" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/nexio_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Nexio.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/nexio_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Nexio</item>
+    </style>
+</resources>

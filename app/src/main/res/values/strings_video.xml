@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="video_status_draft">Draft</string>
+    <string name="video_status_concept_ready">Concept ready</string>
+    <string name="video_status_approved">Approved</string>
+    <string name="video_status_generating">Generating</string>
+    <string name="video_status_rendering">Rendering</string>
+    <string name="video_status_qc_review">In review</string>
+    <string name="video_status_ready">Ready</string>
+    <string name="video_status_failed">Failed</string>
+
+    <string name="video_default_title_ai">New AI video</string>
+    <string name="video_default_title_photo">New photo video</string>
+
+    <string name="video_create_section">Create a video</string>
+    <string name="video_create_ai_button">Full AI video</string>
+    <string name="video_create_ai_hint">A video provider generates the footage. Needs a provider with video generation, and it costs the most.</string>
+    <string name="video_create_photo_button">Video from your photos</string>
+    <string name="video_create_photo_hint">Agents plan it, then this phone assembles your photos into a video. No camera needed.</string>
+    <string name="video_empty_title">No videos yet</string>
+    <string name="video_empty_text">Your video projects appear here.</string>
+    <string name="video_mode_ai">AI video</string>
+    <string name="video_mode_photo">Photo video</string>
+    <string name="video_project_meta">%1$s · %2$s</string>
+
+    <string name="video_msg_agents_working">The agents are working on the concept.</string>
+    <string name="video_err_no_provider">Add an AI provider in API Manager first.</string>
+    <string name="video_err_choose_photo">Choose at least one photo.</string>
+    <string name="video_msg_concept_approved">Concept approved</string>
+    <string name="video_msg_generation_started">Video generation started. You will get a notice when it is ready.</string>
+
+    <string name="video_field_title">Title</string>
+    <string name="video_field_objective">Video objective</string>
+    <string name="video_section_format">Format</string>
+    <string name="video_section_duration">Duration (seconds)</string>
+    <string name="video_section_resolution">Resolution</string>
+    <string name="video_section_frame_rate">Frame rate</string>
+    <string name="video_section_transitions">Transitions</string>
+    <string name="video_transition_none">None</string>
+    <string name="video_transition_fade">Fade</string>
+    <string name="video_transition_zoom">Zoom</string>
+
+    <string name="video_photos_count">Photos (%1$d)</string>
+    <string name="video_action_clear">Clear</string>
+    <string name="video_button_choose_photos">Choose photos</string>
+    <string name="video_field_caption">On-screen text (optional)</string>
+    <string name="video_field_voiceover">Voiceover script (optional)</string>
+    <string name="video_voiceover_hint">Needs a provider with speech generation.</string>
+    <string name="video_field_voice">Voice name</string>
+    <string name="video_voice_hint">Provider voice, for example alloy. Empty uses alloy.</string>
+    <string name="video_button_add_music">Add music (optional)</string>
+    <string name="video_button_change_music">Change music</string>
+    <string name="video_music_rights">Only use music you have the rights to.</string>
+
+    <string name="video_section_concept">Concept</string>
+    <string name="video_section_script">Script</string>
+    <string name="video_section_storyboard">Storyboard</string>
+    <string name="video_section_quality">Quality Control</string>
+    <string name="video_section_finished">Finished video</string>
+    <string name="video_file_meta">%1$s · %2$s</string>
+    <string name="video_button_use_in_post">Use in a post</string>
+
+    <string name="video_button_retry">Try again with this concept</string>
+    <string name="video_button_create_concept">Create concept with agents</string>
+    <string name="video_button_approve_concept">Approve concept</string>
+    <string name="video_button_new_concept">Create a new concept</string>
+    <string name="video_button_render_phone">Render on this phone</string>
+    <string name="video_button_generate_provider">Generate with provider</string>
+    <string name="video_button_start_over">Start over from the concept</string>
+    <string name="video_working_notice">Working on it. You can leave this screen.</string>
+    <string name="video_button_delete">Delete project</string>
+</resources>

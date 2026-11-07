@@ -1,0 +1,2 @@
+# One suppression per line: ADVISORY-ID | written reason | https://link-to-the-advisory
+# A line without a reason or a link makes tools/osv/scan.py refuse to run.

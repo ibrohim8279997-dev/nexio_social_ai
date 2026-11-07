@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="plan_save">Сохранить</string>
+    <string name="plan_saved">Сохранено</string>
+    <string name="plan_optional">Необязательно</string>
+    <string name="plan_no_provider">Сначала добавьте ИИ-провайдера в разделе «Управление API».</string>
+
+    <!-- Agents list -->
+    <string name="plan_agents_ask_title">Задайте задачу главному агенту</string>
+    <string name="plan_agents_instruction">Ваша инструкция</string>
+    <string name="plan_agents_instruction_hint">Он спланирует работу, распределит её между агентами и проверит результат.</string>
+    <string name="plan_agents_send">Отправить главному агенту</string>
+    <string name="plan_agents_header">Агенты</string>
+    <string name="plan_agents_default_model">Используется выбранная вами модель по умолчанию</string>
+    <string name="plan_agents_off">Выкл.</string>
+    <string name="plan_agents_history_title">История задач</string>
+    <string name="plan_agents_empty_title">Задач пока нет</string>
+    <string name="plan_agents_empty_msg">Здесь появятся задачи, над которыми работают агенты.</string>
+
+    <!-- Task status -->
+    <string name="plan_status_completed">Выполнено</string>
+    <string name="plan_status_running">Выполняется</string>
+    <string name="plan_status_queued">В очереди</string>
+    <string name="plan_status_waiting_approval">Ждёт одобрения</string>
+    <string name="plan_status_needs_correction">Нужны правки</string>
+    <string name="plan_status_failed">Ошибка</string>
+    <string name="plan_status_cancelled">Отменено</string>
+
+    <!-- Task screen -->
+    <string name="plan_task_accepted">Принято</string>
+    <string name="plan_task_retried">Отправлено повторно</string>
+    <string name="plan_task_what_went_wrong">Что пошло не так</string>
+    <string name="plan_task_reviewer_notes">Замечания проверяющего</string>
+    <string name="plan_task_result">Результат</string>
+    <string name="plan_task_accept">Принять результат</string>
+    <string name="plan_task_retry">Повторить</string>
+    <string name="plan_task_steps">Шаги</string>
+    <string name="plan_task_image_for">Изображение для: %1$s</string>
+
+    <!-- Agent config -->
+    <string name="plan_agent_model_default">По умолчанию</string>
+    <string name="plan_agent_enabled">Включён</string>
+    <string name="plan_agent_model">Модель</string>
+    <string name="plan_agent_fallback">Запасная</string>
+    <string name="plan_agent_no_models">Выберите модели в разделе «Управление API», чтобы указать одну из них здесь.</string>
+    <string name="plan_agent_temperature">Температура</string>
+    <string name="plan_agent_temperature_unused">Не используется: API Anthropic больше не принимает этот параметр.</string>
+    <string name="plan_agent_temperature_optional">Необязательно. Передаётся, только если модель это поддерживает.</string>
+    <string name="plan_agent_max_tokens">Макс. длина ответа (токены)</string>
+    <string name="plan_agent_standing">Постоянные инструкции</string>
+    <string name="plan_agent_history">История</string>
+    <string name="plan_agent_nothing_yet">Пока ничего нет.</string>
+
+    <!-- Calendar -->
+    <string name="plan_cal_prev_month">Предыдущий месяц</string>
+    <string name="plan_cal_next_month">Следующий месяц</string>
+    <string name="plan_cal_month">Месяц</string>
+    <string name="plan_cal_week">Неделя</string>
+    <string name="plan_cal_week_posts">Посты этой недели</string>
+    <string name="plan_cal_new_post">Новый пост</string>
+    <string name="plan_cal_no_posts">В этот день постов нет.</string>
+    <string name="plan_cal_generate">Составить план на этот месяц</string>
+    <string name="plan_cal_generating">Агенты составляют план на этот месяц. Когда он будет готов, вы получите уведомление.</string>
+    <string name="plan_cal_interview_first">Сначала завершите интервью о вашем бизнесе.</string>
+
+    <!-- Post editor -->
+    <string name="plan_post_missing">Этого поста больше не существует.</string>
+    <string name="plan_post_approved">Одобрено</string>
+    <string name="plan_post_scheduled">Запланировано</string>
+    <string name="plan_post_unscheduled">Больше не запланировано</string>
+    <string name="plan_post_publishing_started">Публикация началась. Следите за ней в разделе «Управление Instagram».</string>
+    <string name="plan_post_media_attached">Медиафайл прикреплён</string>
+    <string name="plan_post_written">Написано агентом по контенту. Прочитайте текст перед одобрением.</string>
+    <string name="plan_post_image_generated">Изображение создано</string>
+    <string name="plan_post_log_approved">Пост одобрен</string>
+    <string name="plan_post_log_scheduled">Пост запланирован</string>
+    <string name="plan_post_choose_datetime">Выберите дату и время публикации</string>
+    <string name="plan_post_next">Далее</string>
+    <string name="plan_post_set">Задать</string>
+    <string name="plan_post_quality_control">Контроль качества: %1$s</string>
+    <string name="plan_post_responsible">Ответственный: %1$s</string>
+    <string name="plan_post_write_title">Поручите написать пост агенту по контенту</string>
+    <string name="plan_post_idea">Идея</string>
+    <string name="plan_post_write">Написать пост</string>
+    <string name="plan_post_title">Заголовок</string>
+    <string name="plan_post_description">Описание</string>
+    <string name="plan_post_caption">Подпись</string>
+    <string name="plan_post_hashtags">Хештеги</string>
+    <string name="plan_post_type">Тип: %1$s</string>
+    <string name="plan_post_media">Медиа</string>
+    <string name="plan_post_choose">Выбрать</string>
+    <string name="plan_post_generate">Создать</string>
+    <string name="plan_carousel_title">Изображения карусели</string>
+    <string name="plan_carousel_hint">Выберите от 2 до 10 изображений. Они опубликуются в этом порядке. В этой версии доступны только изображения, видео нет.</string>
+    <string name="plan_carousel_count">Изображений: %1$d из 10</string>
+    <string name="plan_carousel_add">Добавить из библиотеки</string>
+    <string name="plan_carousel_from_phone">С телефона</string>
+    <string name="plan_carousel_up">Выше</string>
+    <string name="plan_carousel_down">Ниже</string>
+    <string name="plan_carousel_remove">Убрать</string>
+    <string name="plan_carousel_pick_title">Выберите изображения из библиотеки</string>
+    <string name="plan_carousel_pick_done">Готово</string>
+    <string name="plan_carousel_library_empty">В библиотеке пока нет изображений. Добавьте их с телефона.</string>
+    <string name="plan_carousel_limit">В карусели может быть не больше 10 изображений.</string>
+    <string name="plan_carousel_images_added">Изображения добавлены</string>
+    <string name="plan_post_approve">Одобрить</string>
+    <string name="plan_post_schedule">Запланировать</string>
+    <string name="plan_post_publish_now">Опубликовать сейчас</string>
+    <string name="plan_post_cancel_schedule">Отменить планирование</string>
+    <string name="plan_post_delete">Удалить пост</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="connect_save">Save</string>
+    <string name="connect_add">Add</string>
+    <string name="connect_cancel">Cancel</string>
+    <string name="connect_saved">Saved</string>
+    <string name="connect_connected">Connected</string>
+    <string name="connect_failed">Failed</string>
+    <string name="connect_https_only">https:// only</string>
+
+    <!-- AI providers: list -->
+    <string name="connect_api_https_required">The address must start with https://</string>
+    <string name="connect_api_keystore_note">Keys are encrypted with Android Keystore and stay on this phone. Keystore protects them at rest, but a key held on a phone can never be fully extraction-proof, so use keys with spending limits.</string>
+    <string name="connect_api_empty_title">No providers yet</string>
+    <string name="connect_api_empty_message">Add Anthropic, OpenAI, Google Gemini or Groq with your own API key.</string>
+    <string name="connect_chip_default">Default</string>
+    <string name="connect_chip_off">Off</string>
+    <string name="connect_chip_not_tested">Not tested</string>
+    <string name="connect_add_provider">Add provider</string>
+
+    <!-- AI providers: add dialog -->
+    <string name="connect_name_optional">Name (optional)</string>
+    <string name="connect_base_address">Base address</string>
+
+    <!-- AI providers: provider screen -->
+    <string name="connect_api_key_saved">API key saved</string>
+    <string name="connect_enter_key">Enter a key.</string>
+    <string name="connect_api_key_removed">API key removed</string>
+    <string name="connect_models_found">Connected. %1$d models found. Select the ones to use.</string>
+    <string name="connect_connection_failed">Connection failed.</string>
+    <string name="connect_limit_saved">Limit saved</string>
+    <string name="connect_default_set">Default provider set</string>
+    <string name="connect_last_test">Last test: %1$s</string>
+    <string name="connect_section_api_key">API key</string>
+    <string name="connect_no_key_saved">No key saved</string>
+    <string name="connect_paste_key">Paste key</string>
+    <string name="connect_replace_key">Replace key</string>
+    <string name="connect_save_key">Save key</string>
+    <string name="connect_confirm_save_key">Save API key</string>
+    <string name="connect_confirm_remove_key">Remove API key</string>
+    <string name="connect_remove_key">Remove key</string>
+    <string name="connect_test_connection">Test connection and find models</string>
+    <string name="connect_listing_free">Listing models does not use any tokens.</string>
+    <string name="connect_default_provider">Default provider</string>
+    <string name="connect_make_default">Make default</string>
+    <string name="connect_fallback_order">Fallback order</string>
+    <string name="connect_fallback_hint">Lower numbers are tried first when another provider fails.</string>
+    <string name="connect_usage_month">Usage this month</string>
+    <string name="connect_usage_requests">%1$d requests, %2$d failed</string>
+    <string name="connect_usage_total_unpriced">%1$s plus %2$d requests without a price</string>
+    <string name="connect_monthly_limit">Monthly limit (optional)</string>
+    <string name="connect_models">Models</string>
+    <string name="connect_filter">Filter</string>
+    <string name="connect_add_by_identifier">Add by identifier</string>
+    <string name="connect_model_no_price">No price set. Tap to add.</string>
+    <string name="connect_model_price_set">Price set</string>
+    <string name="connect_remove_provider">Remove provider</string>
+
+    <!-- AI providers: model dialog -->
+    <string name="connect_model_pricing_note">Copy prices from your provider\'s pricing page. They are stored with each request, so changing them later never alters past expenses.</string>
+    <string name="connect_price_input">Input price per 1M tokens</string>
+    <string name="connect_price_output">Output price per 1M tokens</string>
+    <string name="connect_price_image">Price per image</string>
+    <string name="connect_price_video_second">Price per video second</string>
+    <string name="connect_price_speech_chars">Price per 1M speech characters</string>
+    <string name="connect_cap_text">Text</string>
+    <string name="connect_cap_image_analysis">Image analysis</string>
+    <string name="connect_cap_image_generation">Image generation</string>
+    <string name="connect_cap_video_generation">Video generation</string>
+    <string name="connect_cap_speech">Speech</string>
+    <string name="connect_currency">Currency</string>
+
+    <!-- Instagram: publish states -->
+    <string name="connect_publish_pending">Queued</string>
+    <string name="connect_publish_uploading">Uploading</string>
+    <string name="connect_publish_processing">Processing</string>
+    <string name="connect_publish_publishing">Publishing</string>
+    <string name="connect_publish_needs_checking">Needs checking</string>
+    <string name="connect_publish_published">Published</string>
+    <string name="connect_publish_failed">Failed</string>
+
+    <!-- Instagram: messages -->
+    <string name="connect_ig_connected">Instagram connected</string>
+    <string name="connect_ig_paste_token">Paste an access token.</string>
+    <string name="connect_ig_token_refused">Instagram refused this token: %1$s</string>
+    <string name="connect_ig_no_code">This address has no authorization code.</string>
+    <string name="connect_ig_auth_rejected">This authorization did not start here, so it was rejected.</string>
+    <string name="connect_ig_secret_missing">The app secret is missing.</string>
+    <string name="connect_ig_disconnected">Disconnected</string>
+
+    <!-- Instagram: screen -->
+    <string name="connect_ig_allows_title">What Instagram allows</string>
+    <string name="connect_ig_allows_body">Publishing uses Meta\'s official API and needs a Business or Creator account. Personal accounts are not supported. Instagram limits how many posts an account can publish through the API in 24 hours. Carousels are not available in this version. Your password is never requested or stored.</string>
+    <string name="connect_ig_history">Publication history</string>
+    <string name="connect_ig_nothing_published">Nothing published yet.</string>
+    <string name="connect_ig_confirm_disconnect">Disconnect Instagram</string>
+    <string name="connect_ig_disconnect">Disconnect account</string>
+
+    <!-- Instagram: account card -->
+    <string name="connect_ig_account">Account</string>
+    <string name="connect_ig_access_until">Access until %1$s. It renews automatically.</string>
+    <string name="connect_ig_reconnect">Reconnect</string>
+    <string name="connect_ig_sign_in_hint">Sign in on Instagram\'s own page. You need an app in Meta for Developers with Instagram Login.</string>
+    <string name="connect_ig_app_id">Instagram app ID</string>
+    <string name="connect_ig_app_secret">Instagram app secret</string>
+    <string name="connect_ig_app_secret_hint">Encrypted on this phone.</string>
+    <string name="connect_ig_redirect">Redirect address</string>
+    <string name="connect_ig_redirect_hint">The https address registered in your Meta app.</string>
+    <string name="connect_ig_sign_in">Sign in with Instagram</string>
+    <string name="connect_ig_pasted_address">Address shown after signing in</string>
+    <string name="connect_ig_pasted_hint">Only needed if the app did not reopen by itself.</string>
+    <string name="connect_ig_finish">Finish signing in</string>
+    <string name="connect_ig_use_token">Use an access token instead</string>
+    <string name="connect_ig_access_token">Access token</string>
+    <string name="connect_ig_access_token_hint">From your Meta app\'s dashboard.</string>
+    <string name="connect_ig_connect_token">Connect with token</string>
+
+    <!-- Instagram: media hosting -->
+    <string name="connect_ig_hosting_title">Temporary media hosting</string>
+    <string name="connect_ig_hosting_body">Instagram downloads media from a public address, so each file is uploaded to your own S3-compatible bucket (Cloudflare R2, AWS S3, Backblaze B2) while it publishes, then deleted.</string>
+    <string name="connect_ig_s3_endpoint">S3 endpoint</string>
+    <string name="connect_ig_region">Region</string>
+    <string name="connect_ig_region_hint">For example auto, or us-east-1</string>
+    <string name="connect_ig_bucket">Bucket</string>
+    <string name="connect_ig_public_base">Public base address</string>
+    <string name="connect_ig_public_base_hint">https:// address where the bucket\'s files can be read</string>
+    <string name="connect_ig_access_key_id">Access key ID</string>
+    <string name="connect_ig_replace_secret">Replace secret key</string>
+    <string name="connect_ig_secret_key">Secret key</string>
+    <string name="connect_ig_save_secret">Save secret key</string>
+
+    <!-- Instagram: post row -->
+    <string name="connect_ig_uncertain">The connection dropped during publishing, so the result is unknown. It will not be sent again until this is settled.</string>
+    <string name="connect_ig_ask_again">Ask Instagram again</string>
+    <string name="connect_ig_was_posted">It was posted</string>
+    <string name="connect_ig_was_not_posted">It was not posted</string>
+    <string name="connect_ig_continue">Continue</string>
+    <string name="connect_ig_try_again">Try again</string>
+</resources>

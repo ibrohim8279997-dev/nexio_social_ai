@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="video_status_draft">Черновик</string>
+    <string name="video_status_concept_ready">Концепция готова</string>
+    <string name="video_status_approved">Утверждено</string>
+    <string name="video_status_generating">Генерация</string>
+    <string name="video_status_rendering">Сборка видео</string>
+    <string name="video_status_qc_review">На проверке</string>
+    <string name="video_status_ready">Готово</string>
+    <string name="video_status_failed">Ошибка</string>
+
+    <string name="video_default_title_ai">Новое видео с ИИ</string>
+    <string name="video_default_title_photo">Новое видео из фото</string>
+
+    <string name="video_create_section">Создать видео</string>
+    <string name="video_create_ai_button">Полностью на ИИ</string>
+    <string name="video_create_ai_hint">Видеопровайдер создаст кадры. Нужен провайдер с генерацией видео, это самый дорогой вариант.</string>
+    <string name="video_create_photo_button">Видео из ваших фото</string>
+    <string name="video_create_photo_hint">Агенты спланируют ролик, а этот телефон соберёт видео из ваших фото. Камера не нужна.</string>
+    <string name="video_empty_title">Видео пока нет</string>
+    <string name="video_empty_text">Здесь появятся ваши видеопроекты.</string>
+    <string name="video_mode_ai">Видео с ИИ</string>
+    <string name="video_mode_photo">Видео из фото</string>
+    <string name="video_project_meta">%1$s · %2$s</string>
+
+    <string name="video_msg_agents_working">Агенты работают над концепцией.</string>
+    <string name="video_err_no_provider">Сначала добавьте ИИ-провайдера в разделе «Управление API».</string>
+    <string name="video_err_choose_photo">Выберите хотя бы одно фото.</string>
+    <string name="video_msg_concept_approved">Концепция утверждена</string>
+    <string name="video_msg_generation_started">Создание видео запущено. Мы сообщим вам, когда оно будет готово.</string>
+
+    <string name="video_field_title">Название</string>
+    <string name="video_field_objective">Цель видео</string>
+    <string name="video_section_format">Формат</string>
+    <string name="video_section_duration">Длительность (секунды)</string>
+    <string name="video_section_resolution">Разрешение</string>
+    <string name="video_section_frame_rate">Частота кадров</string>
+    <string name="video_section_transitions">Переходы</string>
+    <string name="video_transition_none">Без перехода</string>
+    <string name="video_transition_fade">Растворение</string>
+    <string name="video_transition_zoom">Масштабирование</string>
+
+    <string name="video_photos_count">Фото (%1$d)</string>
+    <string name="video_action_clear">Очистить</string>
+    <string name="video_button_choose_photos">Выбрать фото</string>
+    <string name="video_field_caption">Текст на экране (необязательно)</string>
+    <string name="video_field_voiceover">Текст озвучки (необязательно)</string>
+    <string name="video_voiceover_hint">Нужен провайдер с генерацией речи.</string>
+    <string name="video_field_voice">Название голоса</string>
+    <string name="video_voice_hint">Голос провайдера, например alloy. Если поле пустое, используется alloy.</string>
+    <string name="video_button_add_music">Добавить музыку (необязательно)</string>
+    <string name="video_button_change_music">Заменить музыку</string>
+    <string name="video_music_rights">Используйте только музыку, на которую у вас есть права.</string>
+
+    <string name="video_section_concept">Концепция</string>
+    <string name="video_section_script">Сценарий</string>
+    <string name="video_section_storyboard">Раскадровка</string>
+    <string name="video_section_quality">Контроль качества</string>
+    <string name="video_section_finished">Готовое видео</string>
+    <string name="video_file_meta">%1$s · %2$s</string>
+    <string name="video_button_use_in_post">Использовать в посте</string>
+
+    <string name="video_button_retry">Повторить с этой концепцией</string>
+    <string name="video_button_create_concept">Создать концепцию с агентами</string>
+    <string name="video_button_approve_concept">Утвердить концепцию</string>
+    <string name="video_button_new_concept">Создать новую концепцию</string>
+    <string name="video_button_render_phone">Собрать на этом телефоне</string>
+    <string name="video_button_generate_provider">Создать через провайдера</string>
+    <string name="video_button_start_over">Начать заново с концепции</string>
+    <string name="video_working_notice">Работа идёт. Можно выйти с этого экрана.</string>
+    <string name="video_button_delete">Удалить проект</string>
+</resources>

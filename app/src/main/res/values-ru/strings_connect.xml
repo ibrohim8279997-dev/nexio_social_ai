@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="connect_save">Сохранить</string>
+    <string name="connect_add">Добавить</string>
+    <string name="connect_cancel">Отмена</string>
+    <string name="connect_saved">Сохранено</string>
+    <string name="connect_connected">Подключено</string>
+    <string name="connect_failed">Ошибка</string>
+    <string name="connect_https_only">Только https://</string>
+
+    <!-- AI providers: list -->
+    <string name="connect_api_https_required">Адрес должен начинаться с https://</string>
+    <string name="connect_api_keystore_note">Ключи шифруются с помощью Android Keystore и хранятся только на этом телефоне. Keystore защищает их, пока они хранятся на устройстве, но ключ, находящийся на телефоне, никогда нельзя сделать полностью защищённым от извлечения, поэтому используйте ключи с лимитом расходов.</string>
+    <string name="connect_api_empty_title">Провайдеров пока нет</string>
+    <string name="connect_api_empty_message">Добавьте Anthropic, OpenAI, Google Gemini или Groq со своим API-ключом.</string>
+    <string name="connect_chip_default">По умолчанию</string>
+    <string name="connect_chip_off">Выключен</string>
+    <string name="connect_chip_not_tested">Не проверен</string>
+    <string name="connect_add_provider">Добавить провайдера</string>
+
+    <!-- AI providers: add dialog -->
+    <string name="connect_name_optional">Название (необязательно)</string>
+    <string name="connect_base_address">Базовый адрес</string>
+
+    <!-- AI providers: provider screen -->
+    <string name="connect_api_key_saved">API-ключ сохранён</string>
+    <string name="connect_enter_key">Введите ключ.</string>
+    <string name="connect_api_key_removed">API-ключ удалён</string>
+    <string name="connect_models_found">Подключение выполнено. Моделей найдено: %1$d. Отметьте те, которыми хотите пользоваться.</string>
+    <string name="connect_connection_failed">Не удалось подключиться.</string>
+    <string name="connect_limit_saved">Лимит сохранён</string>
+    <string name="connect_default_set">Провайдер по умолчанию выбран</string>
+    <string name="connect_last_test">Последняя проверка: %1$s</string>
+    <string name="connect_section_api_key">API-ключ</string>
+    <string name="connect_no_key_saved">Ключ не сохранён</string>
+    <string name="connect_paste_key">Вставьте ключ</string>
+    <string name="connect_replace_key">Заменить ключ</string>
+    <string name="connect_save_key">Сохранить ключ</string>
+    <string name="connect_confirm_save_key">Сохранить API-ключ</string>
+    <string name="connect_confirm_remove_key">Удалить API-ключ</string>
+    <string name="connect_remove_key">Удалить ключ</string>
+    <string name="connect_test_connection">Проверить подключение и найти модели</string>
+    <string name="connect_listing_free">Получение списка моделей не расходует токены.</string>
+    <string name="connect_default_provider">Провайдер по умолчанию</string>
+    <string name="connect_make_default">Сделать по умолчанию</string>
+    <string name="connect_fallback_order">Порядок резервных провайдеров</string>
+    <string name="connect_fallback_hint">Если провайдер не отвечает, сначала пробуются провайдеры с меньшими номерами.</string>
+    <string name="connect_usage_month">Расходы за этот месяц</string>
+    <string name="connect_usage_requests">Запросов: %1$d, из них неудачных: %2$d</string>
+    <string name="connect_usage_total_unpriced">%1$s, и ещё запросов без цены: %2$d</string>
+    <string name="connect_monthly_limit">Лимит на месяц (необязательно)</string>
+    <string name="connect_models">Модели</string>
+    <string name="connect_filter">Фильтр</string>
+    <string name="connect_add_by_identifier">Добавить по идентификатору</string>
+    <string name="connect_model_no_price">Цена не указана. Нажмите, чтобы добавить.</string>
+    <string name="connect_model_price_set">Цена указана</string>
+    <string name="connect_remove_provider">Удалить провайдера</string>
+
+    <!-- AI providers: model dialog -->
+    <string name="connect_model_pricing_note">Скопируйте цены со страницы тарифов вашего провайдера. Они сохраняются вместе с каждым запросом, поэтому их последующее изменение никогда не затронет прошлые расходы.</string>
+    <string name="connect_price_input">Цена входных данных за 1 млн токенов</string>
+    <string name="connect_price_output">Цена выходных данных за 1 млн токенов</string>
+    <string name="connect_price_image">Цена за одно изображение</string>
+    <string name="connect_price_video_second">Цена за секунду видео</string>
+    <string name="connect_price_speech_chars">Цена за 1 млн символов озвучки</string>
+    <string name="connect_cap_text">Текст</string>
+    <string name="connect_cap_image_analysis">Анализ изображений</string>
+    <string name="connect_cap_image_generation">Создание изображений</string>
+    <string name="connect_cap_video_generation">Создание видео</string>
+    <string name="connect_cap_speech">Озвучка</string>
+    <string name="connect_currency">Валюта</string>
+
+    <!-- Instagram: publish states -->
+    <string name="connect_publish_pending">В очереди</string>
+    <string name="connect_publish_uploading">Загружается</string>
+    <string name="connect_publish_processing">Обрабатывается</string>
+    <string name="connect_publish_publishing">Публикуется</string>
+    <string name="connect_publish_needs_checking">Нужна проверка</string>
+    <string name="connect_publish_published">Опубликовано</string>
+    <string name="connect_publish_failed">Ошибка</string>
+
+    <!-- Instagram: messages -->
+    <string name="connect_ig_connected">Instagram подключён</string>
+    <string name="connect_ig_paste_token">Вставьте токен доступа.</string>
+    <string name="connect_ig_token_refused">Instagram отклонил этот токен: %1$s</string>
+    <string name="connect_ig_no_code">В этом адресе нет кода авторизации.</string>
+    <string name="connect_ig_auth_rejected">Эта авторизация была начата не здесь, поэтому она отклонена.</string>
+    <string name="connect_ig_secret_missing">Не найден секрет приложения.</string>
+    <string name="connect_ig_disconnected">Отключено</string>
+
+    <!-- Instagram: screen -->
+    <string name="connect_ig_allows_title">Что разрешает Instagram</string>
+    <string name="connect_ig_allows_body">Публикация работает через официальный API Meta и требует бизнес-аккаунта или аккаунта автора. Личные аккаунты не поддерживаются. Instagram ограничивает, сколько публикаций аккаунт может отправить через API за 24 часа. Карусели в этой версии недоступны. Ваш пароль никогда не запрашивается и не сохраняется.</string>
+    <string name="connect_ig_history">История публикаций</string>
+    <string name="connect_ig_nothing_published">Пока ничего не опубликовано.</string>
+    <string name="connect_ig_confirm_disconnect">Отключить Instagram</string>
+    <string name="connect_ig_disconnect">Отключить аккаунт</string>
+
+    <!-- Instagram: account card -->
+    <string name="connect_ig_account">Аккаунт</string>
+    <string name="connect_ig_access_until">Доступ действует до %1$s. Он продлевается автоматически.</string>
+    <string name="connect_ig_reconnect">Подключить заново</string>
+    <string name="connect_ig_sign_in_hint">Войдите на официальной странице Instagram. Вам нужно приложение в Meta for Developers с Instagram Login.</string>
+    <string name="connect_ig_app_id">ID приложения Instagram</string>
+    <string name="connect_ig_app_secret">Секрет приложения Instagram</string>
+    <string name="connect_ig_app_secret_hint">Зашифрован на этом телефоне.</string>
+    <string name="connect_ig_redirect">Адрес перенаправления</string>
+    <string name="connect_ig_redirect_hint">Адрес https, указанный в вашем приложении Meta.</string>
+    <string name="connect_ig_sign_in">Войти через Instagram</string>
+    <string name="connect_ig_pasted_address">Адрес, который появился после входа</string>
+    <string name="connect_ig_pasted_hint">Нужен, только если приложение не открылось само.</string>
+    <string name="connect_ig_finish">Завершить вход</string>
+    <string name="connect_ig_use_token">Использовать токен доступа</string>
+    <string name="connect_ig_access_token">Токен доступа</string>
+    <string name="connect_ig_access_token_hint">Из панели вашего приложения Meta.</string>
+    <string name="connect_ig_connect_token">Подключить по токену</string>
+
+    <!-- Instagram: media hosting -->
+    <string name="connect_ig_hosting_title">Временное хранилище файлов</string>
+    <string name="connect_ig_hosting_body">Instagram скачивает файлы по публичному адресу, поэтому на время публикации каждый файл загружается в ваше собственное хранилище, совместимое с S3 (Cloudflare R2, AWS S3, Backblaze B2), а затем удаляется.</string>
+    <string name="connect_ig_s3_endpoint">Адрес S3 (endpoint)</string>
+    <string name="connect_ig_region">Регион</string>
+    <string name="connect_ig_region_hint">Например, auto или us-east-1</string>
+    <string name="connect_ig_bucket">Бакет (bucket)</string>
+    <string name="connect_ig_public_base">Публичный базовый адрес</string>
+    <string name="connect_ig_public_base_hint">Адрес https, по которому можно читать файлы из бакета</string>
+    <string name="connect_ig_access_key_id">ID ключа доступа</string>
+    <string name="connect_ig_replace_secret">Заменить секретный ключ</string>
+    <string name="connect_ig_secret_key">Секретный ключ</string>
+    <string name="connect_ig_save_secret">Сохранить секретный ключ</string>
+
+    <!-- Instagram: post row -->
+    <string name="connect_ig_uncertain">Во время публикации пропало соединение, поэтому результат неизвестен. Пока это не выяснено, публикация не будет отправлена повторно.</string>
+    <string name="connect_ig_ask_again">Спросить Instagram ещё раз</string>
+    <string name="connect_ig_was_posted">Опубликовано</string>
+    <string name="connect_ig_was_not_posted">Не опубликовано</string>
+    <string name="connect_ig_continue">Продолжить</string>
+    <string name="connect_ig_try_again">Повторить</string>
+</resources>

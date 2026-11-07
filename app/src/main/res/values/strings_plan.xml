@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="plan_save">Save</string>
+    <string name="plan_saved">Saved</string>
+    <string name="plan_optional">Optional</string>
+    <string name="plan_no_provider">Add an AI provider in API Manager first.</string>
+
+    <!-- Agents list -->
+    <string name="plan_agents_ask_title">Ask the Main Agent</string>
+    <string name="plan_agents_instruction">Your instruction</string>
+    <string name="plan_agents_instruction_hint">It plans the work, delegates and has it reviewed.</string>
+    <string name="plan_agents_send">Send to Main Agent</string>
+    <string name="plan_agents_header">Agents</string>
+    <string name="plan_agents_default_model">Uses your selected default model</string>
+    <string name="plan_agents_off">Off</string>
+    <string name="plan_agents_history_title">Task history</string>
+    <string name="plan_agents_empty_title">No tasks yet</string>
+    <string name="plan_agents_empty_msg">Tasks the agents work on appear here.</string>
+
+    <!-- Task status -->
+    <string name="plan_status_completed">Completed</string>
+    <string name="plan_status_running">Running</string>
+    <string name="plan_status_queued">Queued</string>
+    <string name="plan_status_waiting_approval">Waiting approval</string>
+    <string name="plan_status_needs_correction">Needs correction</string>
+    <string name="plan_status_failed">Failed</string>
+    <string name="plan_status_cancelled">Cancelled</string>
+
+    <!-- Task screen -->
+    <string name="plan_task_accepted">Accepted</string>
+    <string name="plan_task_retried">Sent again</string>
+    <string name="plan_task_what_went_wrong">What went wrong</string>
+    <string name="plan_task_reviewer_notes">Reviewer\'s notes</string>
+    <string name="plan_task_result">Result</string>
+    <string name="plan_task_accept">Accept this result</string>
+    <string name="plan_task_retry">Try again</string>
+    <string name="plan_task_steps">Steps</string>
+    <string name="plan_task_image_for">Image for: %1$s</string>
+
+    <!-- Agent config -->
+    <string name="plan_agent_model_default">Default</string>
+    <string name="plan_agent_enabled">Enabled</string>
+    <string name="plan_agent_model">Model</string>
+    <string name="plan_agent_fallback">Fallback</string>
+    <string name="plan_agent_no_models">Select models in API Manager to choose one here.</string>
+    <string name="plan_agent_temperature">Temperature</string>
+    <string name="plan_agent_temperature_unused">Not used: Anthropic\'s API no longer accepts it.</string>
+    <string name="plan_agent_temperature_optional">Optional. Only sent where the model supports it.</string>
+    <string name="plan_agent_max_tokens">Max output tokens</string>
+    <string name="plan_agent_standing">Standing instructions</string>
+    <string name="plan_agent_history">History</string>
+    <string name="plan_agent_nothing_yet">Nothing yet.</string>
+
+    <!-- Calendar -->
+    <string name="plan_cal_prev_month">Previous month</string>
+    <string name="plan_cal_next_month">Next month</string>
+    <string name="plan_cal_month">Month</string>
+    <string name="plan_cal_week">Week</string>
+    <string name="plan_cal_week_posts">This week\'s posts</string>
+    <string name="plan_cal_new_post">New post</string>
+    <string name="plan_cal_no_posts">No posts on this day.</string>
+    <string name="plan_cal_generate">Generate plan for this month</string>
+    <string name="plan_cal_generating">The agents are writing this month\'s plan. You will get a notice when it is ready.</string>
+    <string name="plan_cal_interview_first">Finish the business interview first.</string>
+
+    <!-- Post editor -->
+    <string name="plan_post_missing">This post no longer exists.</string>
+    <string name="plan_post_approved">Approved</string>
+    <string name="plan_post_scheduled">Scheduled</string>
+    <string name="plan_post_unscheduled">No longer scheduled</string>
+    <string name="plan_post_publishing_started">Publishing has started. Follow it in Instagram Manager.</string>
+    <string name="plan_post_media_attached">Media attached</string>
+    <string name="plan_post_written">Written by the Content Agent. Review it before approving.</string>
+    <string name="plan_post_image_generated">Image generated</string>
+    <string name="plan_post_log_approved">Post approved</string>
+    <string name="plan_post_log_scheduled">Post scheduled</string>
+    <string name="plan_post_choose_datetime">Choose publication date and time</string>
+    <string name="plan_post_next">Next</string>
+    <string name="plan_post_set">Set</string>
+    <string name="plan_post_quality_control">Quality Control: %1$s</string>
+    <string name="plan_post_responsible">Responsible: %1$s</string>
+    <string name="plan_post_write_title">Let the Content Agent write it</string>
+    <string name="plan_post_idea">Idea</string>
+    <string name="plan_post_write">Write post</string>
+    <string name="plan_post_title">Title</string>
+    <string name="plan_post_description">Description</string>
+    <string name="plan_post_caption">Caption</string>
+    <string name="plan_post_hashtags">Hashtags</string>
+    <string name="plan_post_type">Type: %1$s</string>
+    <string name="plan_post_media">Media</string>
+    <string name="plan_post_choose">Choose</string>
+    <string name="plan_post_generate">Generate</string>
+    <string name="plan_carousel_title">Carousel images</string>
+    <string name="plan_carousel_hint">Choose 2 to 10 images. They are published in this order. This version offers images only, not video.</string>
+    <string name="plan_carousel_count">%1$d of 10 images</string>
+    <string name="plan_carousel_add">Add from library</string>
+    <string name="plan_carousel_from_phone">From phone</string>
+    <string name="plan_carousel_up">Move up</string>
+    <string name="plan_carousel_down">Move down</string>
+    <string name="plan_carousel_remove">Remove</string>
+    <string name="plan_carousel_pick_title">Choose images from the media library</string>
+    <string name="plan_carousel_pick_done">Done</string>
+    <string name="plan_carousel_library_empty">The media library has no images yet. Add some from your phone.</string>
+    <string name="plan_carousel_limit">A carousel holds at most 10 images.</string>
+    <string name="plan_carousel_images_added">Images added</string>
+    <string name="plan_post_approve">Approve</string>
+    <string name="plan_post_schedule">Schedule</string>
+    <string name="plan_post_publish_now">Publish now</string>
+    <string name="plan_post_cancel_schedule">Cancel schedule</string>
+    <string name="plan_post_delete">Delete post</string>
+</resources>

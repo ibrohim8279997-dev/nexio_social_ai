@@ -1,0 +1,17 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.cxx/
+.DS_Store
+
+# Signing material must never enter the repository.
+keystore.properties
+*.jks
+*.keystore
+
+# Editor/tool state
+.kombai/

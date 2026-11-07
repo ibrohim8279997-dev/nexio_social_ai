@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom bar tabs -->
+    <string name="shell_tab_dashboard_label">Главная</string>
+    <string name="shell_tab_dashboard_title">Обзор</string>
+    <string name="shell_tab_agents_label">Агенты</string>
+    <string name="shell_tab_agents_title">ИИ-агенты</string>
+    <string name="shell_tab_calendar_label">Календарь</string>
+    <string name="shell_tab_calendar_title">Календарь контента</string>
+    <string name="shell_tab_video_label">Видео</string>
+    <string name="shell_tab_video_title">Видеостудия</string>
+    <string name="shell_tab_analytics_label">Аналитика</string>
+    <string name="shell_tab_analytics_title">Аналитика</string>
+    <string name="shell_tab_settings_label">Настройки</string>
+    <string name="shell_tab_settings_title">Настройки</string>
+
+    <!-- Drawer sections -->
+    <string name="shell_section_brand">Профиль бренда</string>
+    <string name="shell_section_media">Медиатека</string>
+    <string name="shell_section_instagram">Управление Instagram</string>
+    <string name="shell_section_expenses">Расходы на ИИ</string>
+    <string name="shell_section_api">Управление API</string>
+    <string name="shell_section_migration">Данные и перенос</string>
+    <string name="shell_section_security">Центр безопасности</string>
+
+    <!-- Screen titles -->
+    <string name="shell_route_interview">Интервью о бизнесе</string>
+    <string name="shell_route_monthly">Ежемесячная сверка</string>
+    <string name="shell_route_agent">Агент</string>
+    <string name="shell_route_task">Задача</string>
+    <string name="shell_route_content">Пост</string>
+    <string name="shell_route_provider">ИИ-провайдер</string>
+    <string name="shell_route_video">Видеопроект</string>
+
+    <!-- Top bar -->
+    <string name="shell_open_menu">Открыть меню</string>
+    <string name="shell_back">Назад</string>
+
+    <!-- Dashboard -->
+    <string name="shell_setup_interview_title">Расскажите о своём бизнесе</string>
+    <string name="shell_setup_interview_text">Без этого агенты не смогут писать для вас.</string>
+    <string name="shell_setup_provider_title">Подключите ИИ-провайдера</string>
+    <string name="shell_setup_provider_text">Добавьте API-ключ, чтобы агенты могли работать.</string>
+    <string name="shell_setup_monthly_title">Новый месяц: что изменилось?</string>
+    <string name="shell_setup_monthly_text">Короткая сверка, чтобы агенты работали с актуальными данными.</string>
+    <string name="shell_agent_working">%1$s — в работе</string>
+    <string name="shell_agent_needs_review">Нужна ваша проверка</string>
+    <string name="shell_agent_waiting">Результатов ждут вашей проверки: %1$d</string>
+    <string name="shell_agent_idle">%1$s — ожидает задач</string>
+    <string name="shell_agent_no_task">Сейчас нет активных задач</string>
+    <string name="shell_severity_info">Информация</string>
+    <string name="shell_severity_warning">Внимание</string>
+    <string name="shell_severity_error">Ошибка</string>
+    <string name="shell_dismiss">Закрыть</string>
+    <string name="shell_stat_videos">Видео создано</string>
+    <string name="shell_stat_images">Изображений создано</string>
+    <string name="shell_stat_published">Опубликовано</string>
+    <string name="shell_stat_scheduled">Запланировано</string>
+    <string name="shell_monthly_content">Контент месяца</string>
+    <string name="shell_monthly_published">Опубликовано: %1$d из %2$d</string>
+    <string name="shell_expenses_month">Расходы на ИИ за месяц</string>
+    <string name="shell_of_budget">Бюджет: %1$s</string>
+    <string name="shell_unpriced_requests">Запросов без цены в этом месяце: %1$d, они не учтены. Добавьте цены в разделе «Управление API».</string>
+    <string name="shell_upcoming_posts">Ближайшие посты</string>
+    <string name="shell_see_all">Все</string>
+    <string name="shell_nothing_scheduled">Пока ничего не запланировано.</string>
+    <string name="shell_quick_actions">Быстрые действия</string>
+    <string name="shell_action_create_content">Создать контент</string>
+    <string name="shell_action_generate_video">Создать видео</string>
+    <string name="shell_action_open_calendar">Открыть календарь</string>
+    <string name="shell_action_ai_agents">ИИ-агенты</string>
+    <string name="shell_action_view_expenses">Посмотреть расходы</string>
+    <string name="shell_action_publish_instagram">Опубликовать в Instagram</string>
+    <string name="shell_recent_activity">Недавняя активность</string>
+    <string name="shell_reach_7_days">Охват за 7 дней</string>
+
+    <!-- Brand -->
+    <string name="shell_saved">Сохранено</string>
+    <string name="shell_logo_added">Логотип добавлен</string>
+    <string name="shell_files_added">В медиатеку добавлено файлов: %1$d</string>
+    <string name="shell_log_interview_finished">Интервью о бизнесе завершено</string>
+    <string name="shell_log_monthly_done">Ежемесячная сверка выполнена</string>
+    <string name="shell_log_details_updated">Данные о бизнесе обновлены</string>
+    <string name="shell_nothing_changed">Без изменений</string>
+    <string name="shell_logo">Логотип</string>
+    <string name="shell_add_logo">Добавить логотип</string>
+    <string name="shell_change_logo">Сменить логотип</string>
+    <string name="shell_save_brand_profile">Сохранить профиль бренда</string>
+    <string name="shell_step_of">Шаг %1$d из %2$d</string>
+    <string name="shell_required">Обязательно</string>
+    <string name="shell_optional">По желанию</string>
+    <string name="shell_existing_material">Есть готовые материалы?</string>
+    <string name="shell_existing_material_hint">Добавьте фото продукции и бизнеса, документы бренда и прежние маркетинговые материалы. Они хранятся только на этом телефоне, в вашей медиатеке.</string>
+    <string name="shell_choose_files">Выбрать файлы</string>
+    <string name="shell_next">Далее</string>
+    <string name="shell_finish">Готово</string>
+    <string name="shell_still_empty">Ещё не заполнено: %1$s</string>
+    <string name="shell_monthly_question">Что-нибудь изменилось за этот месяц? Исправьте только то, что поменялось.</string>
+    <string name="shell_save_changes">Сохранить изменения</string>
+</resources>

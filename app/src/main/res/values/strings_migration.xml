@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen: intro and progress -->
+    <string name="migration_intro">Moves your brand profile, agents, content, media, analytics and expenses. API keys and the Instagram login do not move: enter them again on the new phone. This phone always keeps its data.</string>
+    <string name="migration_progress_of">%1$s of %2$s, %3$s left</string>
+    <string name="migration_progress_speed">, %1$s/s</string>
+
+    <!-- Idle -->
+    <string name="migration_move_title">Move to another phone</string>
+    <string name="migration_transfer_auth_title">Transfer your data</string>
+    <string name="migration_transfer_button">Transfer to another phone</string>
+    <string name="migration_receive_button">Receive from another phone</string>
+    <string name="migration_move_hint">Keep both phones close. Works over Bluetooth and Wi-Fi without any server.</string>
+    <string name="migration_backup_title">Encrypted backup</string>
+    <string name="migration_password_label">Backup password</string>
+    <string name="migration_password_hint">At least 10 characters. It cannot be recovered if you lose it.</string>
+    <string name="migration_create_backup">Create encrypted backup</string>
+    <string name="migration_restore_button">Restore from backup</string>
+    <string name="migration_backups_here">Backups made here</string>
+
+    <!-- Transfer flow -->
+    <string name="migration_scan_title">Scan this on the new phone</string>
+    <string name="migration_code_summary">%1$d files, %2$s. The code works once and expires in 10 minutes.</string>
+    <string name="migration_code_description">Transfer code</string>
+    <string name="migration_cancel">Cancel</string>
+    <string name="migration_searching">Looking for the other phone…</string>
+    <string name="migration_confirm_title">Do both phones show this code?</string>
+    <string name="migration_no_cancel">No, cancel</string>
+    <string name="migration_yes_match">Yes, they match</string>
+    <string name="migration_receive_question">Receive %1$s?</string>
+    <string name="migration_offer_note">Nothing on this phone changes until the data is verified and you confirm.</string>
+    <string name="migration_start_transfer">Start transfer</string>
+    <string name="migration_sent">Sent</string>
+    <string name="migration_sent_note">Finish on the new phone. Nothing was removed from this phone.</string>
+    <string name="migration_done">Done</string>
+    <string name="migration_failed_title">It did not finish</string>
+    <string name="migration_failed_note">Your existing data was not changed.</string>
+    <string name="migration_back">Back</string>
+    <string name="migration_try_again">Try again</string>
+    <string name="migration_scanner_failed">The scanner could not start: %1$s</string>
+
+    <!-- Review -->
+    <string name="migration_verified">Verified</string>
+    <string name="migration_verified_files">%1$d files passed their SHA-256 check and the database passed its integrity check.</string>
+    <string name="migration_verified_counts">%1$d posts, %2$d media files, %3$d AI providers.</string>
+    <string name="migration_verified_size">Size: %1$s. Made %2$s.</string>
+    <string name="migration_missing_media">%1$d media file(s) were already missing when this was created.</string>
+    <string name="migration_review_note">Scheduled posts return to Approved, so they cannot publish from two phones. Re-enter API keys and reconnect Instagram afterwards.</string>
+    <string name="migration_replace_data">Replace this phone\'s data</string>
+    <string name="migration_cancel_keep">Cancel, keep my data</string>
+    <string name="migration_replace_dialog_title">Replace all data on this phone?</string>
+    <string name="migration_replace_dialog_text">Everything currently in Nexio Social AI on this phone is replaced by the verified copy. The app will restart.</string>
+    <string name="migration_replace">Replace</string>
+
+    <!-- ViewModel -->
+    <string name="migration_backup_saved">Backup saved</string>
+    <string name="migration_creating_backup">Creating encrypted backup</string>
+    <string name="migration_encrypting">Encrypting</string>
+    <string name="migration_error_write_backup">Could not write the backup file.</string>
+    <string name="migration_activity_backup_created">Encrypted backup created</string>
+    <string name="migration_activity_files">%1$d files</string>
+    <string name="migration_checking_backup">Checking backup</string>
+    <string name="migration_verifying">Verifying</string>
+    <string name="migration_error_open_backup">Could not open the backup file.</string>
+    <string name="migration_error_read_backup">The backup could not be read.</string>
+    <string name="migration_preparing_data">Preparing your data</string>
+    <string name="migration_preparing">Preparing</string>
+    <string name="migration_error_code_expired">The transfer code expired. Start again when both phones are ready.</string>
+    <string name="migration_error_prepare">Could not prepare the transfer.</string>
+    <string name="migration_error_code_unusable">This transfer code cannot be used.</string>
+    <string name="migration_error_no_space">Not enough free storage on this phone. %1$s is needed.</string>
+    <string name="migration_transferring">Transferring</string>
+    <string name="migration_verifying_received">Verifying received data</string>
+    <string name="migration_error_verify_received">The received data could not be verified.</string>
+    <string name="migration_connecting">Connecting</string>
+    <string name="migration_receiving">Receiving</string>
+    <string name="migration_error_verify_backup">The backup was written but could not be read back to check it. Do not rely on it: create it again.</string>
+    <string name="migration_error_replace">The data on this phone could not be replaced. Your previous data was kept. The app will restart.</string>
+
+    <!-- Resuming an interrupted transfer -->
+    <string name="migration_progress_chunks">%1$d of %2$d parts done</string>
+    <string name="migration_code_summary_resumed">Continuing a transfer of %1$s. The code works once and expires in 10 minutes.</string>
+    <string name="migration_offer_resume">%1$d of %2$d parts are already on this phone from an earlier attempt. Only the rest is sent.</string>
+    <string name="migration_retry">Retry</string>
+    <string name="migration_continue">Continue</string>
+    <string name="migration_cancel_delete">Cancel and delete kept parts</string>
+    <string name="migration_resume_note">The finished parts are kept and your data is unchanged. Retry starts a new pairing: a new code, and both phones confirm the digits again.</string>
+    <string name="migration_unfinished_title">Unfinished transfer</string>
+    <string name="migration_unfinished_send">Ready to continue sending %1$s. Nothing was removed from this phone.</string>
+    <string name="migration_unfinished_receive">%1$d of %2$d parts (%3$s in all) are kept on this phone. Scan a new code from the sending phone to continue.</string>
+    <string name="migration_error_nothing_to_resume">There is no unfinished transfer to continue.</string>
+</resources>

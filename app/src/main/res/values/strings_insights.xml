@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Expenses -->
+    <string name="insights_period_day">Today</string>
+    <string name="insights_period_week">7 days</string>
+    <string name="insights_period_month">Month</string>
+    <string name="insights_period_year">Year</string>
+    <string name="insights_budget_saved">Budget saved</string>
+    <string name="insights_spent">Spent</string>
+    <string name="insights_measured_estimated">%1$s measured, %2$s estimated</string>
+    <string name="insights_unpriced_requests">%1$d request(s) are not included because their model has no price. Add prices in API Manager.</string>
+    <string name="insights_measured_explainer">Measured means provider-reported usage times the price you entered. Check your provider\'s bill for the final amount.</string>
+    <string name="insights_monthly_budget">Monthly budget</string>
+    <string name="insights_edit">Edit</string>
+    <string name="insights_no_budget">No budget set. Tap to add one.</string>
+    <string name="insights_budget_progress">%1$s of %2$s. Warning at %3$d%%.</string>
+    <string name="insights_requests_stop_at">Requests stop at %1$s.</string>
+    <string name="insights_no_ai_requests">No AI requests in this period</string>
+    <string name="insights_every_request_listed">Every request will be listed here with its provider, model and agent.</string>
+    <string name="insights_not_available">n/a</string>
+    <string name="insights_cost_per_image">Cost per image</string>
+    <string name="insights_cost_per_video">Cost per video</string>
+    <string name="insights_requests">Requests</string>
+    <string name="insights_spending_over_time">Spending over time</string>
+    <string name="insights_by_provider">By provider</string>
+    <string name="insights_by_model">By model</string>
+    <string name="insights_by_agent">By agent</string>
+    <string name="insights_usage">Usage</string>
+    <string name="insights_input_tokens">Input tokens</string>
+    <string name="insights_output_tokens">Output tokens</string>
+    <string name="insights_images">Images</string>
+    <string name="insights_videos">Videos</string>
+    <string name="insights_videos_value">%1$d (%2$d s)</string>
+    <string name="insights_failed_requests">Failed requests</string>
+    <string name="insights_recent_requests">Recent requests</string>
+    <string name="insights_warn_at_percent">Warn at percent</string>
+    <string name="insights_stop_paid_requests">Stop all paid requests at (optional)</string>
+    <string name="insights_save">Save</string>
+    <string name="insights_cancel">Cancel</string>
+    <string name="insights_failed_status">Failed %1$s</string>
+    <string name="insights_estimated_status">ESTIMATED %1$s</string>
+    <string name="insights_no_price">No price</string>
+    <string name="insights_mixed_currencies">These totals add different currencies together without converting them.</string>
+    <string name="insights_request_type_text">Text</string>
+    <string name="insights_request_type_vision">Image analysis</string>
+    <string name="insights_request_type_image">Image</string>
+    <string name="insights_request_type_video">Video</string>
+    <string name="insights_request_type_speech">Speech</string>
+    <string name="insights_request_type_connection_test">Connection test</string>
+    <string name="insights_tokens_in_out">%1$s in / %2$s out</string>
+    <string name="insights_row_images">%1$d image(s)</string>
+    <string name="insights_row_video_seconds">%1$d s of video</string>
+    <string name="insights_row_characters">%1$s characters</string>
+
+    <!-- Analytics -->
+    <string name="insights_fetching_figures">Fetching figures from Instagram</string>
+    <string name="insights_agent_on_it">The Analytics Agent is on it. See AI Agents for the result.</string>
+    <string name="insights_get_latest_figures">Get latest figures from Instagram</string>
+    <string name="insights_no_figures_yet">No figures yet</string>
+    <string name="insights_figures_appear_here">Figures appear here once posts published through this app have insights on Instagram.</string>
+    <string name="insights_metric_by_post">%1$s by post</string>
+    <string name="insights_totals">Totals</string>
+    <string name="insights_ask_analytics_agent">Ask the Analytics Agent</string>
+
+    <!-- Instagram metric names -->
+    <string name="insights_metric_reach">Reach</string>
+    <string name="insights_metric_likes">Likes</string>
+    <string name="insights_metric_comments">Comments</string>
+    <string name="insights_metric_saved">Saved</string>
+    <string name="insights_metric_shares">Shares</string>
+    <string name="insights_metric_views">Views</string>
+</resources>
